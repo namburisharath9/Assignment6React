@@ -61,7 +61,7 @@ export const RulesContainer = styled.div`
   margin: 25px;
 `
 export const RulesButton = styled.button`
-  height: 33px;
+  height: 34px;
   width: 100px;
   font-family: 'Bree Serif';
   color: #223a5f;
