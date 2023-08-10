@@ -75,7 +75,7 @@ class RockPaperScissors extends Component {
       choicesList[Math.floor(Math.random() * choicesList.length)].id
     const result = this.findResult(userSelection, opponentSelection)
     let newScore = score
-    if (result === 'YOU WIN') {
+    if (result === 'YOU WON') {
       newScore = score + 1
     } else if (result === 'YOU LOSE') {
       newScore = score - 1
